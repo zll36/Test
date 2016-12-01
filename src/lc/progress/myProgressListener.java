@@ -26,6 +26,7 @@ public class myProgressListener implements ProgressListener {
 		status.setPBytesRead(pBytesRead);
 		status.setPContentLength(pContentLength);
 		status.setPItems(pItems);
+		System.out.println("add");
 		System.out.println("update");
 	}
 
