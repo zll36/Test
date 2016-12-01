@@ -33,6 +33,7 @@ public class progressServlet extends HttpServlet {
 	}
 	public void doGet(HttpServletRequest request, HttpServletResponse response) {
 		this.doPost(request,response);
+		System.out.println("new_master");
 		
 	}
 }
