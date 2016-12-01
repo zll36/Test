@@ -40,5 +40,12 @@ public class myProgressListener implements ProgressListener {
 		System.out.println("new_master");
 		System.out.println("new_master");
 	}
-
+	public void update2(long pBytesRead, long pContentLength, int pItems) {
+		// TODO Auto-generated method stub
+		fileUploadStatus status = (fileUploadStatus) session.getAttribute("status");
+		status.setPBytesRead(pBytesRead);
+		status.setPContentLength(pContentLength);
+		status.setPItems(pItems);
+		System.out.println("add");
+	}
 }
