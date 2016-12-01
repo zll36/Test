@@ -27,7 +27,8 @@ public class progressServlet extends HttpServlet {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		        System.out.println("new_master");
+                }
 		
 	}
 	public void doGet(HttpServletRequest request, HttpServletResponse response) {
