@@ -27,6 +27,7 @@ public class myProgressListener implements ProgressListener {
 		status.setPContentLength(pContentLength);
 		status.setPItems(pItems);
 		System.out.println("add");
+		System.out.println("new_master");
 	}
 
 }
