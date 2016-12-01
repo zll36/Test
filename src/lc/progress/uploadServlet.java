@@ -75,6 +75,7 @@ public class uploadServlet extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
 		super.init(config);
+		System.out.println("a");
 	}
 
 }
